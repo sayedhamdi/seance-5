@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+.segoeui{
+    font-family: 'Segoe UI';
+}
+.verdana{
+    font-family: Verdana;
+}
+.montserrat {
+    font-family: 'Montserrat Alternates';
+}
+
+body{
+    font-size:24px;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 60px;
+    align-items: center;
+    box-shadow: 0px 10px 20px gray;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    gap:70px;
+}
+li{
+    font-weight:500;
+}
+.logo{
+    font-size:28px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.br{
+    background:url(../img/architect.jpg);
+    height:90vh;
+    position:relative;
+    z-index:-1;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.br-text{
+    font-size: 35px;
+
+}
+
+.architect-text{
+    margin-left:20px;
+    color:white;
+}
+.BR-TEXT{
+    background:black;
+    color:white;
+    padding:10px 20px;
+    opacity:0.8;
+}
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    align-content: center;
+}
+.project{
+    width:24%;
+    margin:0 5px;
+    position:relative;
+}
+.project h3 {
+    position:absolute;
+    z-index:3;
+    background:black;
+    color:white;
+    padding:5px 10px;
+}
+.container hr {
+    margin-top:20px;
+    margin-bottom: 30px;;
+}
+.project img{
+    width:100%;
+}
+.container{
+
+    margin:20px 50px;
+}
+
+
+.avatars {
+    display:flex;
+    gap:20px;
+}
+.avatar img{
+    width:100%;
+}
+.avatar{
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.avatar h3{
+    color:gray;
+}
+.avatar p  {
+    text-align: center;
+}
+.avatar button{
+    width:100%;
+    background:rgba(128, 128, 128, 0.507);
+    border:none;
+    color:black;
+    font-size:25px;
+    padding:5px;
+}
